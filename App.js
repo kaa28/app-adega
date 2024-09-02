@@ -5,9 +5,12 @@ import { Entypo, FontAwesome5, AntDesign  } from '@expo/vector-icons';
 
 import TelaInicial from "./components/TelaInicial";
 
+
 export default function App() {
   return (
-   <TelaInicial/>
+    <NavigationContainer>
+      
+    </NavigationContainer>
   );
 }
 
@@ -19,3 +22,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
