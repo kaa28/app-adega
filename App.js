@@ -48,12 +48,12 @@ export default function App() {
               <FontAwesome5 name="wine-bottle" color={color} size={20} />
             ),
           }} />
-        {/* <Abas.Screen name="Contato" component={TelaContato}
+        { <Abas.Screen name="Contato" component={TelaContato}
           options={{
             tabBarIcon: ({ color }) => (
               <AntDesign name="contacts" color={color} size={20} />
             ),
-          }} /> */}
+          }} /> }
       </Abas.Navigator> 
     </NavigationContainer>
   );
